@@ -1,0 +1,52 @@
+\documentclass[12pt]{letter} % 10pt font size default, 11pt and 12pt are also possible
+
+\usepackage{geometry} % Required for adjusting page dimensions
+
+
+
+\geometry{
+	paper=a4paper, % Change to letterpaper for US letter
+	top=3cm, % Top margin
+	bottom=1.5cm, % Bottom margin
+	left=4.5cm, % Left margin
+	right=4.5cm, % Right margin
+	%showframe, % Uncomment to show how the type block is set on the page
+}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\usepackage{stix} 
+
+\usepackage{microtype} 
+
+%	Name
+
+\signature{Lorenz Wagner}
+
+\address{Brückenstraße 11 \\ 86153 Augsburg \\ 0157/86098521} % 
+
+
+\begin{document}
+
+%	Adresse
+
+\begin{letter}{Name der Firma \\ Straße der Firma \\ Ort der Firma}
+
+%	Brief
+
+\opening{\textbf{Sehr geehrte Damen und Herren,}}
+
+Hier könnte ihre Werbung stehen....
+
+Ich freue mich von Ihnen zu hören.
+
+\closing{Mit freundlichen Grüßen,}
+ 
+
+%\ps{P.S. You can find additional information attached to this letter.} % Postscript text, comment this line to remove it
+
+
+\end{letter}
+ 
+\end{document}
